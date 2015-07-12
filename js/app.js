@@ -2,7 +2,7 @@ var app = angular.module('VincentGitPage', ['ngRoute'])
 				.config(['$routeProvider', 
 					function($routeProvider){
 						$routeProvider.
-							when('/contact'. {
+							when('/contact', {
 								templateUrl: 'views/contact.html'
 							});
 					}]);
